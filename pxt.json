@@ -1,6 +1,6 @@
 {
     "name": "pxt-smart-arm",
-    "version": "0.0.0",
+    "version": "0.0.1",
     "description": "SmartArm driver",
     "dependencies": {
         "core": "*",
