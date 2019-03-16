@@ -1,9 +1,39 @@
 /**
  * SmartArm utilities
  */
-//% weight=10 color=#1C809D
-namespace SmartArm {
-    export function dht11(): void {
-        basic.showNumber(0);
+//% color=#1C809D
+namespace arm {
+
+    //% block
+    export function dht(): number {
+        return 0
+    }
+
+    //% block
+    export function doSomething() {
+
+    }
+
+    //% block
+    export function turn(l1: number, l2: number, l3: number) {
+        
+    }
+}
+
+//% color=#1C809D
+namespace conveyorBelt {
+    //% block
+    export function start() {
+        
+    }
+
+    //% block
+    export function stop() {
+        
+    }
+
+    //% block
+    export function speed(): number {
+        return 0
     }
 }
