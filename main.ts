@@ -1,5 +1,9 @@
-//% weight=0 color=#1C809D icon="\uf2db" block="sensorssss"
+/**
+ * SmartArm utilities
+ */
+//% weight=10 color=#1C809D
 namespace smart-arm {
-    function signal_dht11(): void {
+    export function dht11(): void {
+        basic.showNumber(0);
     }
 }
